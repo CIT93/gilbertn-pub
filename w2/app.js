@@ -42,21 +42,25 @@ if (totalTimeSpentInClass >= 5) {
 
 // Variable for output
 let displayMsg = ''
+let schedule = 'No time'
 
 displayOnPage('<b>Daily Decision</b>')
 
 // Whether I can do exercise or do Yoga in the Morning depending if I have class
 
 // Booleans and Comparsion
-if (classWednesdayFriday) {
-    displayMsg = 'Yay no class, I can exercise or do Yoga at 11 am for an hour'
-} else if (classMondayTuesdayThursday && totalTimeSpentInClass > 5) {
-    displayMsg = 'No time to exercise or do Yoga in the Morning. Go attend morning class.'
+if (classMondayTuesdayThursday) {
+    schedule = schedule + ' ' + 'To exercise or do Yoga in the Morning.'
+    displayMsg = 'I have class to attend to in the Morning.'
+} else if (totalTimeSpentInClass > 5 && durationExerciseYoga > 1) {
+    schedule = schedule + ' ' + 'Classes are 5 hours in total, exercising or doing Yoga takes me an hour'
+    displayMsg = 'I do not have enough time to do both in the Mornung'
 } else {
-    displayMsg = 'Do Yoga in the evening.'
+    schedule = schedule + ' ' + 'Exercise or Do Yoga'
+    displayMsg = 'Exercising or doing Yoga is good for the body.'
 }
 
 // Display output messages
-displayOnPage('Yay no class, I can exercise or do Yoga at 11 am for an hour')
-displayOnPage('No time to exercise or do Yoga in the Morning. Go attend morning class.')
+displayOnPage(schedule)
 displayOnPage(displayMsg)
+displayOnPage('Going to Class is top priority.')
