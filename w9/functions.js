@@ -47,21 +47,21 @@ const classes = [
 ];
 
 // Created a function that tells me my class schedule and what class I have to attend
-const whatIsMyClass = function () {
-  let whatIsMyClass = '';
-  if ((classSchedule = 'Monday' && classSchedule === 1100)) {
-    whatIsMyClass = 'Biology';
-    // Monday Biology class start time 11:00 am
-  } else if (
-    (classSchedule = 'Tuesday and Thursday' && classSchedule <= 1100)
-  ) {
-    whatIsMyClass = 'Health';
-    // Tuesday and Thursday Health class start time 10:30 am
-  } else {
-    whatIsMyClass = 'No class'; // Wednesday and Friday no classes
-  }
-  return whatIsMyClass;
-};
+// const whatIsMyClass = function () {
+//   let whatIsMyClass = '';
+//   if ((classSchedule = 'Monday' && classSchedule === 1100)) {
+//     whatIsMyClass = 'Biology';
+//     // Monday Biology class start time 11:00 am
+//   } else if (
+//     (classSchedule = 'Tuesday and Thursday' && classSchedule <= 1100)
+//   ) {
+//     whatIsMyClass = 'Health';
+//     // Tuesday and Thursday Health class start time 10:30 am
+//   } else {
+//     whatIsMyClass = 'No class'; // Wednesday and Friday no classes
+//   }
+//   return whatIsMyClass;
+// };
 
 // for each loop that tells me my decision
 const myDecision = function (whatIsMyClass) {
