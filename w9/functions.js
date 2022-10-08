@@ -89,7 +89,7 @@ const renderMyClass = function () {
     if (myClass.tuesdayThursday === false) {
       div.textContent = `Monday. You have Biology class. It is from 11:00 am to 12:50 pm. Wednesday Friday. You have no class. All day.`;
     } else {
-      div.textContent = `Tuesday and Thursday. You have Health class. It is from 10:30 am to 11:45 am.`;
+      div.textContent = `${myClass.finalDecision.when}. You have ${myClass.finalDecision.whatIsMyClass} class. It is from ${myClass.finalDecision.time}`;
     }
     const button = document.createElement('button');
     button.textContent = 'Remove';
