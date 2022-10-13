@@ -1,0 +1,14 @@
+#form {
+  text-align: center;
+  padding: 56px;
+}
+
+#error-message {
+  text-align: center;
+  padding: 56px;
+}
+
+#output {
+  text-align: center;
+  padding: 56px;
+}
