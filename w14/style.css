@@ -1,0 +1,35 @@
+body {
+  background-color: lightseagreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#error-message {
+  color: red;
+}
+
+select {
+  background-color: darkkhaki;
+  font-family: monospace;
+  font-size: 14px;
+  margin: 2px;
+  cursor: pointer;
+  color: snow;
+  text-align: center;
+  border: 3px inset darkolivegreen;
+  border-radius: 10px;
+}
+
+button {
+  background-color: lightsalmon;
+  font-family: monospace;
+  font-size: 14px;
+  margin: 2px;
+  cursor: pointer;
+  color: snow;
+  border: 3px inset darkolivegreen;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 20px;
+}
