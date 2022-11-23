@@ -1,0 +1,41 @@
+body {
+  background-color: lightgreen;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+  border: solid mediumslateblue 5px;
+  background-color: midnightblue;
+}
+
+#pagination {
+  text-align: center;
+}
+
+button {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: ivory;
+  background-color: mediumaquamarine;
+  border: inset mediumslateblue;
+  border-radius: 5px;
+}
+
+#output {
+  list-style: none;
+  font-size: 18px;
+}
+
+#output p:nth-child(4n + 1) {
+  color: darkorange;
+}
+
+hr {
+  border: solid mediumpurple 1px;
+}
